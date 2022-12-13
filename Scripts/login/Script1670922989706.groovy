@@ -17,4 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//testing purpose
+/*Open browser and navigate to LS3 website.*/
+WebUI.openBrowser(GlobalVariable.URL)
+
+WebUI.delay(4)
+
+
+WebUI.click(findTestObject('Object Repository/continue_button'))
+WebUI.closeBrowser()
