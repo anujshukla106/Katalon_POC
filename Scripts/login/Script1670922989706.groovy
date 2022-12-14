@@ -24,4 +24,5 @@ WebUI.delay(4)
 
 
 WebUI.click(findTestObject('Object Repository/continue_button'))
+WebUI.delay(4)
 WebUI.closeBrowser()

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="POCcollection" time="19.93" tests="1" failures="0" errors="0">
+   <testsuite name="POCcollection" tests="1" failures="0" errors="0" time="19.93" skipped="0" timestamp="2022-12-14 06:42:41" hostname="A1061235 - DESKTOP-N91SSCP.hewitt.com" id="Test Suites/POCcollection">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\A1061235\\git\\Katalon_POC\\Reports\\20221214_064236\\POCcollection\\20221214_064236"/>
+         <property name="logFiles" value="D:\\Users\\A1061235\\git\\Katalon_POC\\Reports\\20221214_064236\\POCcollection\\20221214_064236\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="A1061235 - DESKTOP-N91SSCP.hewitt.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="10.41.140.178"/>
+         <property name="sessionId" value="14423913c7e7c67e8930fb9545bb294a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" time="19.387" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2022-12-14 06:42:42 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2022-12-14 06:42:42 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://master-qp3.cba.qa.alight.com/safe'
+
+2022-12-14 06:42:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-14 06:42:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-14 06:42:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://master-qp3.cba.qa.alight.com/safe'
+
+2022-12-14 06:42:53 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-12-14 06:42:57 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-12-14 06:42:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/continue_button")): Object: 'Object Repository/continue_button' is clicked on
+
+2022-12-14 06:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/continue_button' is clicked on
+
+2022-12-14 06:43:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-14 06:43:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-14 06:42:41 - [TEST_SUITE][PASSED] - POCcollection: Test Cases/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+POCcollection,Chrome 107.0.0.0,,,2022-12-14 12:12:41,2022-12-14 12:13:01,19.930s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 107.0.0.0,POC task,,2022-12-14 12:12:42,2022-12-14 12:13:01,19.387s,PASSED
+openBrowser(URL),Chrome 107.0.0.0,,,2022-12-14 12:12:42,2022-12-14 12:12:53,10.600s,PASSED
+delay(4),Chrome 107.0.0.0,,,2022-12-14 12:12:53,2022-12-14 12:12:57,4.055s,PASSED
+"click(findTestObject(""Object Repository/continue_button""))",Chrome 107.0.0.0,,,2022-12-14 12:12:57,2022-12-14 12:13:00,2.989s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-12-14 12:13:00,2022-12-14 12:13:01,1.037s,PASSED
