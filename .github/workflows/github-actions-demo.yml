@@ -18,7 +18,7 @@ jobs:
         with:
           version: 7.5.5
           projectPath: ${{ github.workspace }}
-          args: katalonc -noSplash -runMode=console
+          run: katalonc -noSplash -runMode=console
             -projectPath="git\Katalon_POC\Katalon_POC.prj" -retry=0
             -testSuitePath="Test Suites/POCcollection" -browserType="Chrome"
             -executionProfile="default"
