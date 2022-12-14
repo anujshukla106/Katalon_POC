@@ -22,7 +22,7 @@ jobs:
             -projectPath="git\Katalon_POC\Katalon_POC.prj" -retry=0
             -testSuitePath="Test Suites/POCcollection" -browserType="Chrome"
             -executionProfile="default"
-            -apiKey="433e8342-0c21-4fc7-b8d7-b4beacbb9a85.API_KEY" --config
+            -apiKey="66ebc347-f099-4771-a17f-9b03419e9b28.API key" --config
             -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY
             -proxy.system.applyToDesiredCapabilities=true
             -webui.autoUpdateDrivers=true
