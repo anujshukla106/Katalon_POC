@@ -16,7 +16,7 @@ jobs:
       - name: Katalon Studio Github Action
         uses: katalon-studio/katalon-studio-github-action@v2
         with:
-          version: 7.5.5
+          version: 8.5.5
           projectPath: ${{ github.workspace }}
           run: katalonc -noSplash -runMode=console
             -projectPath="git\Katalon_POC\Katalon_POC.prj" -retry=0
