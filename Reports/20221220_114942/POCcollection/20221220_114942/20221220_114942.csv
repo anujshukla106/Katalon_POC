@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+POCcollection,Chrome 108.0.0.0,,,2022-12-20 17:19:48,2022-12-20 17:20:31,42.246s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 108.0.0.0,POC task,,2022-12-20 17:19:49,2022-12-20 17:20:11,21.786s,PASSED
+openBrowser(URL),Chrome 108.0.0.0,,,2022-12-20 17:19:49,2022-12-20 17:20:00,10.658s,PASSED
+delay(4),Chrome 108.0.0.0,,,2022-12-20 17:20:00,2022-12-20 17:20:04,4.087s,PASSED
+"click(findTestObject(""Object Repository/appointment""))",Chrome 108.0.0.0,,,2022-12-20 17:20:04,2022-12-20 17:20:05,1.291s,PASSED
+delay(4),Chrome 108.0.0.0,,,2022-12-20 17:20:05,2022-12-20 17:20:09,4.010s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-20 17:20:09,2022-12-20 17:20:11,1.095s,PASSED
+,,,,,,,
+Test Cases/loginp,Chrome 108.0.0.0,,,2022-12-20 17:20:11,2022-12-20 17:20:31,20.014s,PASSED
+openBrowser(urls),Chrome 108.0.0.0,,,2022-12-20 17:20:11,2022-12-20 17:20:18,7.122s,PASSED
+delay(4),Chrome 108.0.0.0,,,2022-12-20 17:20:18,2022-12-20 17:20:22,4.011s,PASSED
+"click(findTestObject(""Object Repository/continue_button""))",Chrome 108.0.0.0,,,2022-12-20 17:20:22,2022-12-20 17:20:25,3.227s,PASSED
+delay(4),Chrome 108.0.0.0,,,2022-12-20 17:20:25,2022-12-20 17:20:29,4.006s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-20 17:20:29,2022-12-20 17:20:31,1.156s,PASSED

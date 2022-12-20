@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://master-qp3.cba.qa.alight.com/safe'</initValue>
+      <description>https://master-qp3.cba.qa.alight.com/safe</description>
+      <initValue>'https://katalon-demo-cura.herokuapp.com/'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
