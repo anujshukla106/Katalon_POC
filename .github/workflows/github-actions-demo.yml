@@ -13,6 +13,6 @@ jobs:
     - name: Katalon Studio Github Action
       uses: katalon-studio/katalon-studio-github-action@v2.1
       with:
-          version: 8.5.5
+          version: '8.5.5'
           projectPath: ${{ github.workspace }}
           args: '-noSplash -runMode=console -retry=0 -projectPath="git\Katalon_POC\Katalon_POC.prj" -testSuitePath="Test Suites/POCcollection" -browserType="Chrome" -executionProfile="default" -apiKey=${{ secrets.API_KEY }} --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
