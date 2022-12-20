@@ -9,4 +9,9 @@
       <initValue>'https://master-qp3.cba.qa.alight.com/safe'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://master-qp4.cba.qa.alight.com/safe'</initValue>
+      <name>urls</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
