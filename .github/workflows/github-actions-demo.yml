@@ -1,28 +1,19 @@
----
-name: POC katalon
+name: CI
 on:
   push:
-    branches:
-      - main
+    branches: [ master ]
   pull_request:
-    branches:
-      - main
+    branches: [ master ]
+
 jobs:
   build:
     runs-on: windows-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Katalon Studio Github Action
-        uses: katalon-studio/katalon-studio-github-action@v2
-        with:
-          version: 8.5.5
-          projectPath: ${{ github.workspace }}
-          run: katalonc -noSplash -runMode=console
-            -projectPath="git\Katalon_POC\Katalon_POC.prj" -retry=0
-            -testSuitePath="Test Suites/POCcollection" -browserType="Chrome"
-            -executionProfile="default"
-            -apiKey="433e8342-0c21-4fc7-b8d7-b4beacbb9a85" --config
-            -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY
-            -proxy.system.applyToDesiredCapabilities=true
-            -webui.autoUpdateDrivers=true
+    - name: Checkout
+      uses: actions/checkout@v2.2
+    - name: Katalon Studio Github Action
+      uses: katalon-studio/katalon-studio-github-action@v2
+      with:
+          version: ‘8.5.0’
+          projectPath: '${{ github.workspace }}'
+          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/Simple Test Suite Collection" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
