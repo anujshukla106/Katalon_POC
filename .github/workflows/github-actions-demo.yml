@@ -18,11 +18,4 @@ jobs:
         with:
           version: '8.5.5'
           projectPath: '${{ github.workspace }}'
-          args: katalonc -noSplash -runMode=console
-            -projectPath="git\Katalon_POC\Katalon_POC.prj" -retry=0
-            -testSuitePath="Test Suites/POCcollection" -browserType="Chrome"
-            -executionProfile="default"
-            -apiKey=${{ secrets.API_KEY }} --config
-            -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY
-            -proxy.system.applyToDesiredCapabilities=true
-            -webui.autoUpdateDrivers=true
+          args: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/POCcollection" -apiKey=${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
