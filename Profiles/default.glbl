@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://master-qp4.cba.qa.alight.com/safe'</initValue>
+      <initValue>'https://master-qp3.cba.qa.alight.com/safe'</initValue>
       <name>urls</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
