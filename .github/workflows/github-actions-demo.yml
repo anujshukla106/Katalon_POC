@@ -18,4 +18,4 @@ jobs:
         with:
           version: '8.5.5'
           projectPath: '${{ github.workspace }}'
-          args: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/POCcollection" -apiKey=${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
+          args: '-browserType="internet_explorer" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/POCcollection" -apiKey=${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
