@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+POCcollection,,,,2024-02-26 11:29:12,2024-02-26 11:29:39,27.461s,FAILED
+,,,,,,,
+Test Cases/login,,POC task,,2024-02-26 11:29:21,2024-02-26 11:29:23,1.951s,FAILED
+openBrowser(URL),,,,2024-02-26 11:29:21,2024-02-26 11:29:23,1.938s,FAILED
+,,,,,,,
+Test Cases/loginp,,,,2024-02-26 11:29:29,2024-02-26 11:29:31,1.988s,FAILED
+openBrowser(urls),,,,2024-02-26 11:29:29,2024-02-26 11:29:31,1.974s,FAILED
+,,,,,,,
+Test Cases/trial,,,,2024-02-26 11:29:37,2024-02-26 11:29:39,1.969s,FAILED
+"URL = ""https://www.google.com/""",,,,2024-02-26 11:29:37,2024-02-26 11:29:37,0.001s,PASSED
+openBrowser(URL),,,,2024-02-26 11:29:37,2024-02-26 11:29:39,1.952s,FAILED
