@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+POCcollection,Chrome 122.0.0.0,,,2024-03-19 13:39:45,2024-03-19 13:40:15,29.679s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 122.0.0.0,POC task,,2024-03-19 13:39:45,2024-03-19 13:40:03,17.823s,PASSED
+openBrowser(URL),Chrome 122.0.0.0,,,2024-03-19 13:39:46,2024-03-19 13:39:53,6.847s,PASSED
+delay(4),Chrome 122.0.0.0,,,2024-03-19 13:39:53,2024-03-19 13:39:57,4.069s,PASSED
+"click(findTestObject(""Object Repository/appointment""))",Chrome 122.0.0.0,,,2024-03-19 13:39:57,2024-03-19 13:39:58,1.095s,PASSED
+delay(4),Chrome 122.0.0.0,,,2024-03-19 13:39:58,2024-03-19 13:40:02,4.004s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,2024-03-19 13:40:02,2024-03-19 13:40:03,1.117s,PASSED
+,,,,,,,
+Test Cases/trial,Chrome 122.0.0.0,,,2024-03-19 13:40:03,2024-03-19 13:40:11,8.250s,PASSED
+"URL = ""https://www.google.com/""",Chrome 122.0.0.0,,,2024-03-19 13:40:04,2024-03-19 13:40:04,0.002s,PASSED
+openBrowser(URL),Chrome 122.0.0.0,,,2024-03-19 13:40:04,2024-03-19 13:40:07,2.899s,PASSED
+delay(4),Chrome 122.0.0.0,,,2024-03-19 13:40:07,2024-03-19 13:40:11,4.005s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,2024-03-19 13:40:11,2024-03-19 13:40:11,0.827s,PASSED
+,,,,,,,
+Test Cases/loginp2,Chrome 122.0.0.0,,,2024-03-19 13:40:11,2024-03-19 13:40:15,3.142s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,2024-03-19 13:40:12,2024-03-19 13:40:14,1.798s,PASSED
+"navigateToUrl(""https://master-qy2.cba.qa.alight.com/safe/version.jsp"")",Chrome 122.0.0.0,,,2024-03-19 13:40:14,2024-03-19 13:40:15,0.845s,PASSED

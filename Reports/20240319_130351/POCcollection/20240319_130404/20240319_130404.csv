@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+POCcollection,Chrome 122.0.0.0,,,19-03-2024 13:04:11,19-03-2024 13:05:07,56.415s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 122.0.0.0,POC task,,19-03-2024 13:04:11,19-03-2024 13:04:33,21.500s,PASSED
+openBrowser(URL),Chrome 122.0.0.0,,,19-03-2024 13:04:11,19-03-2024 13:04:21,9.061s,PASSED
+delay(4),Chrome 122.0.0.0,,,19-03-2024 13:04:21,19-03-2024 13:04:25,4.072s,PASSED
+"click(findTestObject(""Object Repository/appointment""))",Chrome 122.0.0.0,,,19-03-2024 13:04:25,19-03-2024 13:04:26,1.737s,PASSED
+delay(4),Chrome 122.0.0.0,,,19-03-2024 13:04:26,19-03-2024 13:04:30,4.035s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,19-03-2024 13:04:30,19-03-2024 13:04:33,2.290s,PASSED
+,,,,,,,
+Test Cases/loginp,Chrome 122.0.0.0,,,19-03-2024 13:04:33,19-03-2024 13:04:57,23.977s,PASSED
+openBrowser(urls),Chrome 122.0.0.0,,,19-03-2024 13:04:33,19-03-2024 13:04:45,12.361s,PASSED
+delay(4),Chrome 122.0.0.0,,,19-03-2024 13:04:45,19-03-2024 13:04:49,4.007s,PASSED
+"click(findTestObject(""Object Repository/continue_button""))",Chrome 122.0.0.0,,,19-03-2024 13:04:49,19-03-2024 13:04:51,1.479s,PASSED
+delay(4),Chrome 122.0.0.0,,,19-03-2024 13:04:51,19-03-2024 13:04:55,4.012s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,19-03-2024 13:04:55,19-03-2024 13:04:57,1.856s,PASSED
+,,,,,,,
+Test Cases/trial,Chrome 122.0.0.0,,,19-03-2024 13:04:57,19-03-2024 13:05:07,10.570s,PASSED
+"URL = ""https://www.google.com/""",Chrome 122.0.0.0,,,19-03-2024 13:04:57,19-03-2024 13:04:57,0.012s,PASSED
+openBrowser(URL),Chrome 122.0.0.0,,,19-03-2024 13:04:57,19-03-2024 13:05:03,5.788s,PASSED
+delay(4),Chrome 122.0.0.0,,,19-03-2024 13:05:03,19-03-2024 13:05:07,4.015s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,19-03-2024 13:05:07,19-03-2024 13:05:07,0.642s,PASSED
