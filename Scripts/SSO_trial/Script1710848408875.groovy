@@ -18,11 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser("")
-//WebUI.navigateToUrl('https://master-qx4.cba.qa.alight.com/safe/')
-WebUI.getUrl('https://master-qx4.cba.qa.alight.com/safe/')
+WebUI.navigateToUrl('https://master-qx3.cba.qa.alight.com/safe/')
+//WebUI.getUrl('https://master-qx4.cba.qa.alight.com/safe/')
 //Reloading the opened webpage 
 //Requires as in cloud it ask for credentials
+WebUI.delay(4)
+
 WebUI.refresh()
+
 WebUI.delay(6)
 
 // Entering the username and password to login 
