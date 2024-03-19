@@ -1,12 +1,8 @@
 ---
 name: POC katalon
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: windows-latest
@@ -16,6 +12,10 @@ jobs:
       - name: Katalon Studio Github Action
         uses: katalon-studio/katalon-studio-github-action@v2
         with:
-          version: '8.5.5'
+          version: '8.6.8'
           projectPath: '${{ github.workspace }}'
-          args: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/POCcollection" -apiKey=${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
+          args: '-browserType="Firefox" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/POCcollection" -apiKey=${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
+
+
+
+
