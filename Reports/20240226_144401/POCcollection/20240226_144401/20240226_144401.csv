@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+POCcollection,Firefox 115.0,,,2024-02-26 14:44:05,2024-02-26 14:44:52,47.760s,PASSED
+,,,,,,,
+Test Cases/login,Firefox 115.0,POC task,,2024-02-26 14:44:05,2024-02-26 14:44:24,18.920s,PASSED
+openBrowser(URL),Firefox 115.0,,,2024-02-26 14:44:05,2024-02-26 14:44:14,8.414s,PASSED
+delay(4),Firefox 115.0,,,2024-02-26 14:44:14,2024-02-26 14:44:18,4.053s,PASSED
+"click(findTestObject(""Object Repository/appointment""))",Firefox 115.0,,,2024-02-26 14:44:18,2024-02-26 14:44:19,0.825s,PASSED
+delay(4),Firefox 115.0,,,2024-02-26 14:44:19,2024-02-26 14:44:23,4.004s,PASSED
+closeBrowser(),Firefox 115.0,,,2024-02-26 14:44:23,2024-02-26 14:44:24,1.131s,PASSED
+,,,,,,,
+Test Cases/loginp,Firefox 115.0,,,2024-02-26 14:44:24,2024-02-26 14:44:40,16.091s,PASSED
+openBrowser(urls),Firefox 115.0,,,2024-02-26 14:44:24,2024-02-26 14:44:30,5.787s,PASSED
+delay(4),Firefox 115.0,,,2024-02-26 14:44:30,2024-02-26 14:44:34,4.006s,PASSED
+"click(findTestObject(""Object Repository/continue_button""))",Firefox 115.0,,,2024-02-26 14:44:34,2024-02-26 14:44:35,0.745s,PASSED
+delay(4),Firefox 115.0,,,2024-02-26 14:44:35,2024-02-26 14:44:39,4.004s,PASSED
+closeBrowser(),Firefox 115.0,,,2024-02-26 14:44:39,2024-02-26 14:44:40,1.133s,PASSED
+,,,,,,,
+Test Cases/trial,Firefox 115.0,,,2024-02-26 14:44:40,2024-02-26 14:44:52,12.378s,PASSED
+"URL = ""https://www.google.com/""",Firefox 115.0,,,2024-02-26 14:44:40,2024-02-26 14:44:40,0.001s,PASSED
+openBrowser(URL),Firefox 115.0,,,2024-02-26 14:44:40,2024-02-26 14:44:47,6.674s,PASSED
+delay(4),Firefox 115.0,,,2024-02-26 14:44:47,2024-02-26 14:44:51,4.005s,PASSED
+closeBrowser(),Firefox 115.0,,,2024-02-26 14:44:51,2024-02-26 14:44:52,1.336s,PASSED

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="POCcollection" time="44.367" tests="3" failures="0" errors="0">
+   <testsuite name="POCcollection" tests="3" failures="0" errors="0" time="44.367" skipped="0" timestamp="2024-03-18 15:38:19" hostname="A1061235 - DESKTOP-N91SSCP.hewitt.com" id="Test Suites/POCcollection">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\A1061235\\git\\Katalon_POC_2024\\Reports\\20240318_153814\\POCcollection\\20240318_153814"/>
+         <property name="logFiles" value="D:\\Users\\A1061235\\git\\Katalon_POC_2024\\Reports\\20240318_153814\\POCcollection\\20240318_153814\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="A1061235 - DESKTOP-N91SSCP.hewitt.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="10.41.140.178"/>
+         <property name="sessionId" value="c24e81bfe2f34a8297176cabf9bb1dd6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" time="18.327" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2024-03-18 15:38:20 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2024-03-18 15:38:20 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2024-03-18 15:38:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-03-18 15:38:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-03-18 15:38:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2024-03-18 15:38:28 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2024-03-18 15:38:32 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2024-03-18 15:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/appointment")): Object: 'Object Repository/appointment' is clicked on
+
+2024-03-18 15:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/appointment' is clicked on
+
+2024-03-18 15:38:33 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2024-03-18 15:38:37 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2024-03-18 15:38:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-03-18 15:38:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/loginp" time="15.321" classname="Test Cases/loginp" status="PASSED">
+         <system-out><![CDATA[2024-03-18 15:38:38 - [TEST_CASE][PASSED] - Test Cases/loginp: Test Cases/loginp
+
+2024-03-18 15:38:39 - [TEST_STEP][PASSED] - openBrowser(urls): Browser is opened with url: 'https://master-qp3.cba.qa.alight.com/safe'
+
+2024-03-18 15:38:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-03-18 15:38:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-03-18 15:38:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://master-qp3.cba.qa.alight.com/safe'
+
+2024-03-18 15:38:43 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2024-03-18 15:38:47 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2024-03-18 15:38:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/continue_button")): Object: 'Object Repository/continue_button' is clicked on
+
+2024-03-18 15:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/continue_button' is clicked on
+
+2024-03-18 15:38:48 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2024-03-18 15:38:52 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2024-03-18 15:38:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-03-18 15:38:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/trial" time="10.22" classname="Test Cases/trial" status="PASSED">
+         <system-out><![CDATA[2024-03-18 15:38:53 - [TEST_CASE][PASSED] - Test Cases/trial: Test Cases/trial
+
+2024-03-18 15:38:54 - [TEST_STEP][PASSED] - URL = "https://www.google.com/": null
+
+2024-03-18 15:38:54 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://www.google.com/'
+
+2024-03-18 15:38:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-03-18 15:38:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-03-18 15:38:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2024-03-18 15:38:59 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2024-03-18 15:39:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2024-03-18 15:39:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-03-18 15:39:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-03-18 15:38:19 - [TEST_SUITE][PASSED] - POCcollection: Test Cases/trial]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

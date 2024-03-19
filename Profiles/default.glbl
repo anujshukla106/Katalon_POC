@@ -19,4 +19,9 @@
       <initValue>''</initValue>
       <name>testing</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>newupdate</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
