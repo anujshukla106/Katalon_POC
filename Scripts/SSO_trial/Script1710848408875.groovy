@@ -17,3 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser("")
+//WebUI.navigateToUrl('https://master-qx4.cba.qa.alight.com/safe/')
+WebUI.getUrl('https://master-qx4.cba.qa.alight.com/safe/')
+//Reloading the opened webpage 
+//Requires as in cloud it ask for credentials
+WebUI.refresh()
+WebUI.delay(6)
+
+// Entering the username and password to login 
+
+WebUI.setText(findTestObject('Object Repository/login_username'), GlobalVariable.username)
+
+WebUI.setText(findTestObject('Object Repository/login_password'), GlobalVariable.password)
+
+WebUI.click(findTestObject('Object Repository/login_btn'))
