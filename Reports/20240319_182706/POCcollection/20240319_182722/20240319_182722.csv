@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+POCcollection,Chrome 122.0.0.0,,,19-03-2024 18:27:35,19-03-2024 18:28:50,1m - 14.806s,FAILED
+,,,,,,,
+Test Cases/login,Chrome 122.0.0.0,POC task,,19-03-2024 18:27:35,19-03-2024 18:27:55,19.150s,PASSED
+openBrowser(URL),Chrome 122.0.0.0,,,19-03-2024 18:27:36,19-03-2024 18:27:45,8.778s,PASSED
+delay(4),Chrome 122.0.0.0,,,19-03-2024 18:27:45,19-03-2024 18:27:49,4.050s,PASSED
+"click(findTestObject(""Object Repository/appointment""))",Chrome 122.0.0.0,,,19-03-2024 18:27:49,19-03-2024 18:27:50,1.057s,PASSED
+delay(4),Chrome 122.0.0.0,,,19-03-2024 18:27:50,19-03-2024 18:27:54,4.005s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,19-03-2024 18:27:54,19-03-2024 18:27:55,0.774s,PASSED
+,,,,,,,
+Test Cases/loginp2,Chrome 122.0.0.0,,,19-03-2024 18:27:55,19-03-2024 18:28:00,5.533s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,19-03-2024 18:27:55,19-03-2024 18:27:59,4.212s,PASSED
+"navigateToUrl(""https://master-qy2.cba.qa.alight.com/safe/version.jsp"")",Chrome 122.0.0.0,,,19-03-2024 18:27:59,19-03-2024 18:28:00,1.146s,PASSED
+,,,,,,,
+Test Cases/SSO_trial,Chrome 122.0.0.0,,,19-03-2024 18:28:00,19-03-2024 18:28:50,49.767s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,19-03-2024 18:28:00,19-03-2024 18:28:05,4.325s,PASSED
+"navigateToUrl(""https://master-qx3.cba.qa.alight.com/safe/"")",Chrome 122.0.0.0,,,19-03-2024 18:28:05,19-03-2024 18:28:10,5.036s,PASSED
+delay(4),Chrome 122.0.0.0,,,19-03-2024 18:28:10,19-03-2024 18:28:14,4.008s,PASSED
+"navigateToUrl(""https://master-qx3.cba.qa.alight.com/safe/"")",Chrome 122.0.0.0,,,19-03-2024 18:28:14,19-03-2024 18:28:15,1.644s,PASSED
+"setText(findTestObject(""Object Repository/login_username""), username)",Chrome 122.0.0.0,,,19-03-2024 18:28:15,19-03-2024 18:28:50,34.619s,FAILED
