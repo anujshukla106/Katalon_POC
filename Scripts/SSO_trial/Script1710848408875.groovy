@@ -24,7 +24,7 @@ WebUI.navigateToUrl('https://master-qx3.cba.qa.alight.com/safe/')
 //Requires as in cloud it ask for credentials
 WebUI.delay(4)
 WebUI.navigateToUrl('https://master-qx3.cba.qa.alight.com/safe/')
-
+//
 //WebUI.refresh()
 
 //WebUI.delay(6)
