@@ -27,11 +27,11 @@ WebUI.navigateToUrl('https://master-qx3.cba.qa.alight.com/safe/')
 
 //WebUI.refresh()
 
-WebUI.delay(6)
-
+//WebUI.delay(6)
+//
 // Entering the username and password to login 
 
-WebUI.setText(findTestObject('Object Repository/login_username'), GlobalVariable.username)
+WebUI.setText(findTestObject('Object Repository/login_username'), "anuj.shukla@alight.com")
 
 WebUI.setText(findTestObject('Object Repository/login_password'), GlobalVariable.password)
 
