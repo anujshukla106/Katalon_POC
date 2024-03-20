@@ -33,6 +33,8 @@ WebUI.navigateToUrl('https://master-qx3.cba.qa.alight.com/safe/')
 
 WebUI.setText(findTestObject('Object Repository/login_username'), "anuj.shukla@alight.com")
 
-WebUI.setText(findTestObject('Object Repository/login_password'), GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('Object Repository/login_password'), "F4bfzrtDwopXClm5dSGoNg==")
 
+
+	
 WebUI.click(findTestObject('Object Repository/login_btn'))
